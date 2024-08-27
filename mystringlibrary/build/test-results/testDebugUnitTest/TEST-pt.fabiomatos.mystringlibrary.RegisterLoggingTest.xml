@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.fabiomatos.mystringlibrary.RegisterLoggingTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-08-27T10:21:52" hostname="DESKTOP-OFQEQFN" time="2.722">
+  <properties/>
+  <testcase name="testSend" classname="pt.fabiomatos.mystringlibrary.RegisterLoggingTest" time="2.722">
+    <failure message="java.io.IOException: Unexpected code Response{protocol=h2, code=400, message=, url=https://us-central1-mobilesdklogging.cloudfunctions.net/saveString}" type="java.io.IOException">java.io.IOException: Unexpected code Response{protocol=h2, code=400, message=, url=https://us-central1-mobilesdklogging.cloudfunctions.net/saveString}
+	at pt.fabiomatos.mystringlibrary.RegisterLogging$sendRequestInfoLogging$2.invokeSuspend(RegisterLogging.kt:37)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:46)
+	at pt.fabiomatos.mystringlibrary.RegisterLoggingTest$testSend$1.invokeSuspend(RegisterLoggingTest.kt:14)
+Caused by: java.io.IOException: Unexpected code Response{protocol=h2, code=400, message=, url=https://us-central1-mobilesdklogging.cloudfunctions.net/saveString}
+	at pt.fabiomatos.mystringlibrary.RegisterLogging$sendRequestInfoLogging$2.invokeSuspend(RegisterLogging.kt:37)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

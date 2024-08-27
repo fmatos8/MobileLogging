@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_answer_video_low.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_answer_low.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_answer.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_answer.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_answer_video.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_decline.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_decline.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/drawable-anydpi-v21/ic_call_decline_low.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/drawable-anydpi-v21/ic_call_decline_low.xml"
+    }
+]

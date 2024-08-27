@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v21/notification_template_icon_group.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v21/notification_template_custom_big.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v21/notification_action.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v21/notification_action_tombstone.xml",
+        "source": "pt.fabiomatos.mystringlibrary-core-1.13.1-7:/layout-v21/notification_action_tombstone.xml"
+    }
+]

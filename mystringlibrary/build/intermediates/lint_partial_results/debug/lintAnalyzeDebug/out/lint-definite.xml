@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.0" type="incidents">
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for jupiter-junit-jupiter"
+            robot="true">
+            <fix-replace
+                description="Replace with junitJupiterVersion = &quot;5.8.1&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="junitJupiterVersion = &quot;5.8.1&quot;&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with jupiter-junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiterVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jupiter-junit-jupiter = { module = &quot;org.junit.jupiter:junit-jupiter&quot;, version.ref = &quot;junitJupiterVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="1655"
+                    endOffset="1655"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.jupiter.junit.jupiter"
+                robot="true"
+                replacement="libs.jupiter.junit.jupiter"
+                priority="0">
+                <range
+                    file="${:mystringlibrary*projectDir}/build.gradle.kts"
+                    startOffset="982"
+                    endOffset="1021"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="41"
+            column="25"
+            startOffset="983"
+            endLine="41"
+            endColumn="62"
+            endOffset="1020"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for okhttp3-okhttp"
+            robot="true">
+            <fix-replace
+                description="Replace with okhttpVersion = &quot;4.12.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="okhttpVersion = &quot;4.12.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="246"
+                    endOffset="246"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with okhttp3-okhttp = { module = &quot;com.squareup.okhttp3:okhttp&quot;, version.ref = &quot;okhttpVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="okhttp3-okhttp = { module = &quot;com.squareup.okhttp3:okhttp&quot;, version.ref = &quot;okhttpVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="1753"
+                    endOffset="1753"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.okhttp3.okhttp"
+                robot="true"
+                replacement="libs.okhttp3.okhttp"
+                priority="0">
+                <range
+                    file="${:mystringlibrary*projectDir}/build.gradle.kts"
+                    startOffset="1152"
+                    endOffset="1188"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="44"
+            column="21"
+            startOffset="1153"
+            endLine="44"
+            endColumn="55"
+            endOffset="1187"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for squareup-moshi"
+            robot="true">
+            <fix-replace
+                description="Replace with moshiVersion = &quot;1.15.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="moshiVersion = &quot;1.15.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="246"
+                    endOffset="246"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with squareup-moshi = { module = &quot;com.squareup.moshi:moshi&quot;, version.ref = &quot;moshiVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="squareup-moshi = { module = &quot;com.squareup.moshi:moshi&quot;, version.ref = &quot;moshiVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="1753"
+                    endOffset="1753"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.squareup.moshi"
+                robot="true"
+                replacement="libs.squareup.moshi"
+                priority="0">
+                <range
+                    file="${:mystringlibrary*projectDir}/build.gradle.kts"
+                    startOffset="1209"
+                    endOffset="1242"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="45"
+            column="21"
+            startOffset="1210"
+            endLine="45"
+            endColumn="52"
+            endOffset="1241"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for jetbrains-kotlinx-coroutines-core"
+            robot="true">
+            <fix-replace
+                description="Replace with kotlinxCoroutinesCoreVersion = &quot;1.7.3&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="kotlinxCoroutinesCoreVersion = &quot;1.7.3&quot;&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="124"
+                    endOffset="124"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with jetbrains-kotlinx-coroutines-core = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-core&quot;, version.ref = &quot;kotlinxCoroutinesCoreVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jetbrains-kotlinx-coroutines-core = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-core&quot;, version.ref = &quot;kotlinxCoroutinesCoreVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="351"
+                    endOffset="351"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.jetbrains.kotlinx.coroutines.core"
+                robot="true"
+                replacement="libs.jetbrains.kotlinx.coroutines.core"
+                priority="0">
+                <range
+                    file="${:mystringlibrary*projectDir}/build.gradle.kts"
+                    startOffset="1263"
+                    endOffset="1316"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="46"
+            column="21"
+            startOffset="1264"
+            endLine="46"
+            endColumn="72"
+            endOffset="1315"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for jetbrains-kotlinx-coroutines-android"
+            robot="true">
+            <fix-replace
+                description="Replace with kotlinxCoroutinesAndroidVersion = &quot;1.7.3&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="kotlinxCoroutinesAndroidVersion = &quot;1.7.3&quot;&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="124"
+                    endOffset="124"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with jetbrains-kotlinx-coroutines-android = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-android&quot;, version.ref = &quot;kotlinxCoroutinesAndroidVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jetbrains-kotlinx-coroutines-android = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-android&quot;, version.ref = &quot;kotlinxCoroutinesAndroidVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="../gradle/libs.versions.toml"
+                    startOffset="351"
+                    endOffset="351"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.jetbrains.kotlinx.coroutines.android"
+                robot="true"
+                replacement="libs.jetbrains.kotlinx.coroutines.android"
+                priority="0">
+                <range
+                    file="${:mystringlibrary*projectDir}/build.gradle.kts"
+                    startOffset="1337"
+                    endOffset="1393"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="47"
+            column="21"
+            startOffset="1338"
+            endLine="47"
+            endColumn="75"
+            endOffset="1392"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.3 is available: 1.8.1">
+        <fix-replace
+            description="Change to 1.8.1"
+            family="Update versions"
+            oldString="1.7.3"
+            replacement="1.8.1"
+            priority="0"/>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="46"
+            column="21"
+            startOffset="1264"
+            endLine="46"
+            endColumn="72"
+            endOffset="1315"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.3 is available: 1.8.1">
+        <fix-replace
+            description="Change to 1.8.1"
+            family="Update versions"
+            oldString="1.7.3"
+            replacement="1.8.1"
+            priority="0"/>
+        <location
+            file="${:mystringlibrary*projectDir}/build.gradle.kts"
+            line="47"
+            column="21"
+            startOffset="1338"
+            endLine="47"
+            endColumn="75"
+            endOffset="1392"/>
+    </incident>
+
+</incidents>

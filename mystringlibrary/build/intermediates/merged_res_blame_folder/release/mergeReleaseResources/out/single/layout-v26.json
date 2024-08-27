@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v26/mtrl_calendar_month.xml",
+        "source": "pt.fabiomatos.mystringlibrary-material-1.12.0-28:/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "pt.fabiomatos.mystringlibrary-release-3:/layout-v26/abc_screen_toolbar.xml",
+        "source": "pt.fabiomatos.mystringlibrary-appcompat-1.7.0-9:/layout-v26/abc_screen_toolbar.xml"
+    }
+]
